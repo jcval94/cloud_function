@@ -1,0 +1,25 @@
+numpy>=1.23.5, <2.0.0
+pandas==1.4.3
+matplotlib==3.5.2
+scipy==1.8.1
+scikit-learn==1.1.1
+jupyter==1.0.0
+statsmodels==0.13.2
+werkzeug==2.2.2
+google-cloud-storage==2.5.0
+flask==2.2.2
+plotly==5.16.0
+
+# Combinación con fallo en DistilBERT
+# tensorflow==2.17.0  # TensorFlow 2.17.0 incluye Keras 2.x
+# transformers==4.31.0
+
+# Combinación fallo en Keras
+transformers==4.30.0
+tensorflow==2.12.0
+
+# Combinación Colab
+# tensorflow==2.17.0
+# transformers==4.44.2
+# tf-keras==2.9.0
+openai==1.50.2
