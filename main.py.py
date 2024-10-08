@@ -64,11 +64,6 @@ predictions = None
 tokenizer = None
 distilbert_model = None
 
-# if not tf.test.is_gpu_available():
-#     raise SystemError('GPU device not found')
-
-# logging.info(f"Dispositivos físicos disponibles: {tf.config.list_physical_devices('GPU')}")
-# OPENAI_API_KEY = 'sk-proj-3B0nwF2Fml5Y5QICyNo8T3BlbkFJ0gadeoM04kT8n9n9UAY1'
 
 def sp_to_en(contenido):
     OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
